@@ -1,0 +1,4 @@
+WDI_data = pd.read_csv("./files/WDI_csv/WDIData.csv")
+print(WDI_data.columns)
+print(WDI_data.info())
+WDI_data.head()
